@@ -25,6 +25,10 @@ class Player
     end
   end
 
+  def restart
+    initialize
+  end
+
 end
 
 player1 = Player.new
@@ -46,4 +50,6 @@ p player1
 player1.do_battle(3)
 p player1
 player1.do_battle(7)
+p player1
+player1.restart
 p player1
